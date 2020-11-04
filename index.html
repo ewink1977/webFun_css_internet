@@ -11,25 +11,25 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div.wrapper {
+div#wrapper {
     width: 970px;
     min-height: 1100px;
     background-image: linear-gradient(silver, white);
 }
 
-    div.wrapper header {
+    div#wrapper header {
         display: flex;
         align-items: flex-end;
         background-color: white;
     }
 
-        div.wrapper header img {
+        div#wrapper header img {
             display: inline-block;
             width: 120px;
             margin-bottom: -20px;
         }
 
-        div.wrapper header h1 {
+        div#wrapper header h1 {
             display: inline-block;
             padding-bottom: 5px;
             font-family: Arial, Helvetica, sans-serif;
@@ -37,11 +37,11 @@ div.wrapper {
             color: black;
         }
 
-        div.wrapper header .blue {
+        div#wrapper header .blue {
             color: blue;
         }
 
-    div.wrapper .subheader {
+    div#wrapper .subheader {
         background-image: linear-gradient(blue, grey, blue);
         width: 100%;
         font-family: Arial, Helvetica, sans-serif;
@@ -51,13 +51,13 @@ div.wrapper {
         color: white;
     }
 
-    div.wrapper div.main {
+    div#wrapper div#main {
         display: flex;
         align-items: flex-start;
         min-height: 700px;
     }
 
-        div.wrapper div.main aside {
+        div#wrapper div#main aside {
             display: inline-block;
             padding: 5px;
             width: 220px;
@@ -65,22 +65,22 @@ div.wrapper {
             color: black;
         }
 
-            div.wrapper div.main aside h2 {
+            div#wrapper div#main aside h2 {
                 font-size: 18px;
                 font-family: Arial, Helvetica, sans-serif;
                 font-weight: bolder;
                 color: black;
             }
 
-            div.wrapper div.main aside .red {
+            div#wrapper div#main aside .red {
                 color: red;
             }
 
-            div.wrapper div.main aside .blue {
+            div#wrapper div#main aside .blue {
                 color: blue;
             }
 
-            div.wrapper div.main aside p {
+            div#wrapper div#main aside p {
                 font-size: 15px;
                 font-family: Arial, Helvetica, sans-serif;
                 font-weight: bold;
@@ -88,7 +88,7 @@ div.wrapper {
                 padding: 6px 0px;
             }
 
-            div.wrapper div.main aside .bluebutton {
+            div#wrapper div#main aside .bluebutton {
                 width: 100%;
                 text-align: center;
                 font-size: 16px;
@@ -101,7 +101,7 @@ div.wrapper {
                 box-shadow: 2px 2px 2px grey;
             }
 
-            div.wrapper div.main aside .orangebutton {
+            div#wrapper div#main aside .orangebutton {
                 width: 100%;
                 text-align: center;
                 font-size: 16px;
@@ -114,21 +114,23 @@ div.wrapper {
                 box-shadow: 2px 2px 2px grey;
             }
 
-            div.wrapper div.main aside hr {
+            div#wrapper div#main aside hr {
                 color: grey;
                 opacity: 25%;
                 border-style: inset;
+                margin-bottom: 25px;
+                margin-top: 25px;
             }
 
-            div.wrapper div.main aside div.dojoad {
+            div#wrapper div#main aside div#dojoad {
                 width: 210px;
                 background-image: url("img/ad_background.png");
-                background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
+                margin: 20px auto;
             }
 
-            div.wrapper div.main aside div.dojoad p {
+            div#wrapper div#main aside div#dojoad p {
                 color: whitesmoke;
                 text-align: center;
                 padding: 15px 2px;
@@ -137,14 +139,28 @@ div.wrapper {
                 font-weight: normal;
             }
 
-            div.wrapper div.main aside div.dojoad img {
-                width: 120px;
+            div#wrapper div#main aside div#dojoad img {
+                width: 100px;
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
             }
 
-        div.wrapper div.main section {
+            div#wrapper div#main aside div#dojoad .aquabutton {
+                display: block;
+                width: 80%;
+                text-align: center;
+                font-size: 16px;
+                font-weight: bold;
+                color: white;
+                padding: 8px 0px;
+                margin: 15px auto 35px auto;
+                background-color: aqua;
+                border-radius: 5px;
+                box-shadow: 2px 2px 2px grey;
+            }
+
+        div#wrapper div#main section {
             display: inline-block;
             width: 700px;
             min-height: 700px;
@@ -156,27 +172,34 @@ div.wrapper {
     <title>Internet (Optional) Assignment</title>
 </head>
 <body>
-    <div class="wrapper">
+    <div id="wrapper">
         <header>
             <img src="img/globe.png" alt="Globe Image">
             <h1>The Inter<span class="blue">net</span></h1>
         </header>
         <h2 class="subheader">The World Wide Web</h2>
-        <div class="main">
+        <div id="main">
             <aside>
                 <h2>So, what's an <span class="red">Internet?</span></h2>
                 <p>An <span class="blue">Inter</span>connected <span class="blue">Net</span>work of computers all around the world!</p>
                 <button class="bluebutton">WATCH A VIDEO</button>
                 <button class="orangebutton">MORE RESOURCES</button>
                 <hr>
-                <div class="dojoad">
+                <div id="dojoad">
                     <p>Reinvent your career in just 14 weeks</p>
                     <img src="img/ninja.png" alt="Cute Ninja PNG!">
                     <button class="aquabutton">Learn More >>></button>
                 </div>
             </aside>
             <section>
+                <div id="intro">
+                    <div class="home">
 
+                    </div>
+                    <div class="contact">
+
+                    </div>
+                </div>
             </section>
 
         </div>
