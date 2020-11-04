@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+<style>
+
+* {
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.wrapper {
+    width: 970px;
+    min-height: 1100px;
+    background-image: linear-gradient(silver, white);
+}
+
+    div.wrapper header {
+        display: flex;
+        align-items: flex-end;
+        background-color: white;
+    }
+
+        div.wrapper header img {
+            display: inline-block;
+            width: 120px;
+            margin-bottom: -20px;
+        }
+
+        div.wrapper header h1 {
+            display: inline-block;
+            padding-bottom: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3em;
+            color: black;
+        }
+
+        div.wrapper header .blue {
+            color: blue;
+        }
+
+    div.wrapper .subheader {
+        background-image: linear-gradient(blue, grey, blue);
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2em;
+        padding: 10px 20px;
+        font-weight: bold;
+        color: white;
+    }
+
+    div.wrapper div.main {
+        display: flex;
+        align-items: flex-start;
+        min-height: 700px;
+    }
+
+        div.wrapper div.main aside {
+            display: inline-block;
+            padding: 5px;
+            width: 220px;
+            min-height: 700px;
+            color: black;
+        }
+
+            div.wrapper div.main aside h2 {
+                font-size: 18px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                color: black;
+            }
+
+            div.wrapper div.main aside .red {
+                color: red;
+            }
+
+            div.wrapper div.main aside .blue {
+                color: blue;
+            }
+
+            div.wrapper div.main aside p {
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                color: black;
+                padding: 6px 0px;
+            }
+
+            div.wrapper div.main aside .bluebutton {
+                width: 100%;
+                text-align: center;
+                font-size: 16px;
+                font-weight: bold;
+                color: white;
+                padding: 8px 0px;
+                margin: 3px 2px;
+                background-color: blue;
+                border-radius: 5px;
+                box-shadow: 2px 2px 2px grey;
+            }
+
+            div.wrapper div.main aside .orangebutton {
+                width: 100%;
+                text-align: center;
+                font-size: 16px;
+                font-weight: bold;
+                color: white;
+                padding: 8px 0px;
+                margin: 3px 2px;
+                background-color: orangered;
+                border-radius: 5px;
+                box-shadow: 2px 2px 2px grey;
+            }
+
+            div.wrapper div.main aside hr {
+                color: grey;
+                opacity: 25%;
+                border-style: inset;
+            }
+
+            div.wrapper div.main aside div.dojoad {
+                width: 210px;
+                background-image: url("img/ad_background.png");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            div.wrapper div.main aside div.dojoad p {
+                color: whitesmoke;
+                text-align: center;
+                padding: 15px 2px;
+                line-height: 1.25;
+                font-size: 24px;
+                font-weight: normal;
+            }
+
+            div.wrapper div.main aside div.dojoad img {
+                width: 120px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+        div.wrapper div.main section {
+            display: inline-block;
+            width: 700px;
+            min-height: 700px;
+        }
+
+</style>
+
+
+    <title>Internet (Optional) Assignment</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="img/globe.png" alt="Globe Image">
+            <h1>The Inter<span class="blue">net</span></h1>
+        </header>
+        <h2 class="subheader">The World Wide Web</h2>
+        <div class="main">
+            <aside>
+                <h2>So, what's an <span class="red">Internet?</span></h2>
+                <p>An <span class="blue">Inter</span>connected <span class="blue">Net</span>work of computers all around the world!</p>
+                <button class="bluebutton">WATCH A VIDEO</button>
+                <button class="orangebutton">MORE RESOURCES</button>
+                <hr>
+                <div class="dojoad">
+                    <p>Reinvent your career in just 14 weeks</p>
+                    <img src="img/ninja.png" alt="Cute Ninja PNG!">
+                    <button class="aquabutton">Learn More >>></button>
+                </div>
+            </aside>
+            <section>
+
+            </section>
+
+        </div>
+    </div>
+</body>
+</html>
