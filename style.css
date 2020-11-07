@@ -1,0 +1,308 @@
+* {
+    font-family: sans-serif;
+}
+
+div#wrapper {
+    width: 970px;
+    background-image: linear-gradient(silver, white 33%);
+}
+
+    div#wrapper header {
+        display: flex;
+        align-items: flex-end;
+        background-color: white;
+    }
+
+        div#wrapper header img {
+            display: inline-block;
+            width: 120px;
+            margin-bottom: -20px;
+        }
+
+        div#wrapper header h1 {
+            display: inline-block;
+            padding-bottom: 5px;
+            font-family: sans-serif;
+            font-size: 3em;
+            color: black;
+        }
+
+        div#wrapper header .blue {
+            color: #26669c;
+        }
+
+    div#wrapper .subheader {
+        background-image: linear-gradient(#26669c, #5484ab, #26669c);
+        font-family: sans-serif;
+        font-size: 2em;
+        padding: 10px 20px;
+        font-weight: bold;
+        color: white;
+    }
+
+    div#wrapper div#main {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    div#wrapper div#main hr {
+        color: grey;
+        border-style: inset;
+        margin: 5px 5px;
+    }
+
+        div#wrapper div#main aside {
+            display: inline-block;
+            padding: 20px 5px;
+            width: 220px;
+            color: black;
+        }
+
+            div#wrapper div#main aside h2 {
+                font-size: 18px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                color: black;
+            }
+
+            div#wrapper div#main aside .red {
+                color: #d72626;
+            }
+
+            div#wrapper div#main aside .blue {
+                color: #26669c;
+            }
+
+            div#wrapper div#main aside p {
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                color: black;
+                padding: 6px 0px;
+            }
+
+            div#wrapper div#main aside .bluebutton {
+                width: 100%;
+                text-align: center;
+                font-size: 16px;
+                font-weight: bold;
+                color: white;
+                padding: 8px 0px;
+                margin: 3px 2px;
+                background-image: linear-gradient(#669ac2, #2a699e);
+                border-radius: 5px;
+                border: none;
+                box-shadow: 2px 2px 2px grey;
+            }
+
+            div#wrapper div#main aside .orangebutton {
+                width: 100%;
+                text-align: center;
+                font-size: 16px;
+                font-weight: bold;
+                color: white;
+                padding: 8px 0px;
+                margin: 3px 2px;
+                background-image: linear-gradient(#e9ad5f, #ee7505);
+                border-radius: 5px;
+                border: none;
+                box-shadow: 2px 2px 2px grey;
+            }
+
+            div#wrapper div#main aside hr {
+                color: grey;
+                border-style: inset;
+                margin: 25px 5px;
+            }
+
+            div#wrapper div#main aside div#dojoad {
+                width: 210px;
+                height: 350px;
+                background-image: url("img/ad_background.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                margin: 20px auto;
+                box-shadow: 2px 2px 2px grey;
+            }
+
+            div#wrapper div#main aside div#dojoad p {
+                color: whitesmoke;
+                text-align: center;
+                padding: 15px 2px;
+                line-height: 1.25;
+                font-size: 24px;
+                font-weight: normal;
+            }
+
+            div#wrapper div#main aside div#dojoad img {
+                width: 100px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            div#wrapper div#main aside div#dojoad .aquabutton {
+                display: block;
+                width: 80%;
+                text-align: center;
+                font-size: 16px;
+                font-weight: bold;
+                color: white;
+                padding: 8px 0px;
+                margin: 15px auto 35px auto;
+                background-image: linear-gradient(#7ed1de, #07c1dd);
+                border-radius: 5px;
+                border: none;
+                box-shadow: 2px 2px 2px black;
+            }
+
+                div#wrapper div#main aside div#dojoad .aquabutton .txt-sm {
+                    font-size: 10px;
+                }
+
+                div#wrapper div#main aside div#dojoad .aquabutton .op-33 {
+                    opacity: 33%;
+                }
+
+                div#wrapper div#main aside div#dojoad .aquabutton .op-66 {
+                    opacity: 66%;
+                }
+
+        div#wrapper div#main div#right-content #infobox {
+            display: block;
+            width: 100%;
+            padding: 5px 5px 5px 15px;
+            font-family: sans-serif;
+        }
+
+            div#wrapper div#main div#right-content #infobox .home {
+                display: inline-block;
+                vertical-align: top;
+            }
+
+                div#wrapper div#main div#right-content #infobox .home img {
+                    width: 8%;
+                    display: inline-block;
+                    vertical-align: top;
+                }
+
+                div#wrapper div#main div#right-content #infobox .home p {
+                    display: inline-block;
+                    vertical-align: bottom;
+                    font-family: sans-serif;
+                    font-size: 17px;
+                    font-weight: bold;
+                    color: #26669c;
+                }
+
+            div#wrapper div#main div#right-content #infobox img.phone {
+                width: 6%;
+                display: inline-block;
+                margin-left: 210px;
+            }
+
+            div#wrapper div#main div#right-content #infobox .contact {
+                display: inline-block;
+            }
+
+                div#wrapper div#main div#right-content #infobox .contact .text-sm {
+                    font-size: 11px;
+                    text-align: right;
+                    color: #5f5f5f;
+                }
+
+                div#wrapper div#main div#right-content #infobox .contact .contact-no {
+                    font-size: 28px;
+                    font-weight: bold;
+                    text-align: right;
+                    color: #00c0dd;
+                }
+
+        div#wrapper div#main div#right-content article {
+            padding: 5px 5px 5px 15px;
+            font-family: sans-serif;
+        }
+
+            div#wrapper div#main div#right-content article h2 {
+                font-size: 20px;
+                font-weight: bold;
+                color: #26669c;
+                padding-bottom: 3px;
+            }
+
+            div#wrapper div#main div#right-content article p {
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size: 15px;
+            }
+
+            div#wrapper div#main div#right-content article .aqua {
+                color: #0297ad;
+            }
+
+            div#wrapper div#main div#right-content article .bold {
+                font-weight: bold;
+            }
+
+            div#wrapper div#main div#right-content article ul {
+                list-style-position: outside;
+                margin: 5px 10px 5px 40px;
+            }
+
+            div#wrapper div#main div#right-content article ul li {
+                font-size: 15px;
+                margin-bottom: 10px;
+            }
+
+            div#wrapper div#main div#right-content article .article-img {
+                display: block;
+                width: 40%;
+                margin: 5px auto;
+                padding: 5px 5px 10px 5px;
+            }
+
+            div#wrapper div#main div#right-content article ol {
+                list-style-position: outside;
+                margin: 5px 10px 5px 40px;
+            }
+
+            div#wrapper div#main div#right-content article ol li {
+                margin-bottom: 10px;
+                font-size: 15px;
+            }
+
+        div#wrapper div#main div#right-content #big3-box {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            box-sizing: border-box;
+            box-shadow: 3px 3px 3px 2px grey;
+            border: 5px solid #0087dd;
+            margin: 10px 15px;
+            font-family: sans-serif;
+        }
+
+            div#wrapper div#main div#right-content #big3-box .big3-img {
+                display: inline-block;
+                width: 15%;
+                margin: 10px;
+            }
+
+            div#wrapper div#main div#right-content #big3-box h2 {
+                font-size: 20px;
+                font-weight: bold;
+                color: #26669c;
+                padding: 0px 0px 3px 10px;
+                margin-top: 10px;
+            }
+
+            div#wrapper div#main div#right-content #big3-box p {
+                font-size: 15px;
+                padding: 5px 10px;
+            }
+
+            div#wrapper div#main div#right-content #big3-box a {
+                text-decoration: none;
+                color: #0297ad;
+                font-weight: bold;
+            }
